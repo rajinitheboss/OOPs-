@@ -4,9 +4,9 @@
 using namespace std;
 
 ofstream outfile;
-outfile.open("output.txt",ios::out);
 
 int main(){
+    outfile.open("output.txt",ios::out);
     outfile<<"krishna sai kottakota"<<endl;
     outfile.close();
     return 0;
